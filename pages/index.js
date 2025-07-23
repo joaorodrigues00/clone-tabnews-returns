@@ -3,7 +3,10 @@ function Home() {
 }
 
 function teste2() {
-  console.log("indentacao errada");
+  console.log(
+    "indentacao errada",
+    atob("aHR0cHM6Ly9jdXJzby5kZXYvd2ViL2Rucy1oNGNrM3I="),
+  );
 }
 
 export default Home;
